@@ -20,9 +20,8 @@ const Navbar = ({ data }) => {
 
         <div className="menuitems">
           <span onClick={() => navigate("/")}>Home</span>
-          <span onClick={() => navigate("/poems")}>Poems</span>
-          <span onClick={() => navigate("/haiku-wallpapers")}>Wallpapers</span>
-          <span onClick={() => navigate("/contact")}>Contact Us</span>
+          <span onClick={() => navigate("/about")}>About Us</span>
+          <span onClick={() => navigate("/contact")}>Contact </span>
         </div>
         <div className="nav-buttons">
             <span className="login">Book Now</span>
