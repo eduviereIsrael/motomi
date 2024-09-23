@@ -135,9 +135,9 @@
     .NavbarContainer{
         width: 100vw;
         // // padding: 0px;
-        // position: fixed;
-        // top: 0;
-        // left: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
         box-sizing: border-box;
         width: 100%;
         color: #000;
@@ -676,7 +676,7 @@
         grid-template-columns: 3fr 2fr 3fr;
         gap: 50px;
         width: 100%;
-        border: 1px solid;
+        // border: 1px solid;
         padding: 137px 0px 0;
         // border: 2px solid #000;
     }
