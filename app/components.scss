@@ -1346,6 +1346,191 @@ z-index: 1;
     }
   }
   
+
+  .about-company {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    width: 100%;
+
+  
+    .top-section {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 2fr 5fr;
+    //   height: 60vh;
+
+
+      .main-text{
+        width: 100%;
+        padding: auto 0;
+        // background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img{
+        width: 100%;
+      }
+  
+      .banner-image {
+        width: 100%;
+        // max-height: 400px;
+
+        object-fit: cover;
+      }
+    }
+  
+    .content {
+      width: 100%;
+      margin-top: 2rem;
+  
+      section {
+        margin-bottom: 3rem;
+        width: 100%;
+
+        // background-color: #f9f9f9; 
+        
+        .container {
+        //   padding-left: 20px;
+        //   padding-right: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+        }
+  
+        h2, h3 {
+          text-align: center;
+          color: #333;
+        }
+
+        h3{
+            font-size: 20px;
+            margin: 25px 0 17px;
+        }
+
+        h2{
+            font-size: 39px;
+            color: #DC2626;
+            text-transform: uppercase;
+        }
+  
+        p {
+          text-align: center;
+          line-height: 1.6;
+
+        }
+      }
+
+      .opener{
+        padding: 48px 0;
+      }
+  
+      .goal {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 48px 0;
+        background-color: #fff;
+
+  
+        h4 {
+          margin: 1rem 0;
+          font-size: 1.2rem;
+          color: #c00;
+        }
+
+        p{
+            color: #000;
+        }
+      }
+  
+      .motomi-advantage {
+        background-color: #000;
+        color: #fff;
+        padding: 40px 20px;
+        text-align: left;
+      
+        h2 {
+          text-align: center;
+          color: #c00;
+          margin-bottom: 2rem;
+        }
+      
+        .container {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 1.5rem;
+      
+          .advantage-item {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+      
+            p {
+              font-size: 1rem;
+              line-height: 1.5;
+              color: #fff;
+              margin: 0;
+              text-align: left;
+      
+              b {
+                color: #fff;
+                font-weight: bold;
+                margin-right: 0.5rem; /* Adds some space after the bold text */
+              }
+            }
+          }
+        }
+      }
+      
+  
+      .locations {
+        background-color: #fff;
+        padding: 100px 0;
+        color: #000;
+        margin-bottom: 0;
+        .location-list {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-top: 15px;
+  
+          .location-item {
+            display: grid;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0.5rem 0;
+            grid-template-columns: 1fr 4fr 1fr;
+            align-items: center;
+
+            img{
+                height: 45px;
+                margin-left: auto;
+            }
+  
+            p {
+              font-weight: bold;
+              text-align: left;
+            }
+  
+            span {
+              color: #c00;
+              font-weight: bold;
+              margin-left: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
   
 
   
