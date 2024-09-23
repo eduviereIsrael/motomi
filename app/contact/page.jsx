@@ -4,6 +4,9 @@ import React from "react";
 const page = () => {
   return (
     <div>
+      <a href="/" className="fixed-wa">
+        <img src="/wa.svg" alt="" />
+      </a>
       <Navbar />
       <div className="about-page">
         <div className="container">
@@ -27,11 +30,16 @@ const page = () => {
           <div className="wa-banner">
             <div className="head">
               <img src="/big-wa.png" alt="" />
-              <h3>CONTACT US ON <br/> OUR WHATSAPP</h3>
+              <h3>
+                CONTACT US ON <br /> OUR WHATSAPP
+              </h3>
             </div>
             <div className="body">
-              <div className="text" >
-                <p>Your satisfaction is our top priority—let&apos;s get your car back on the road in no time!</p>
+              <div className="text">
+                <p>
+                  Your satisfaction is our top priority—let&apos;s get your car
+                  back on the road in no time!
+                </p>
                 <button className="book-now-btn">Contact Us</button>
               </div>
               <img src="/wa-banner.svg" alt="" />

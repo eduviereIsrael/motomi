@@ -4,6 +4,9 @@ import React from "react";
 const AboutCompany = () => {
   return (
     <div className="about-company">
+      <a href="/" className="fixed-wa">
+        <img src="/wa.svg" alt="" />
+      </a>
       <Navbar />
       <div className="top-section">
         <div className="main-text">

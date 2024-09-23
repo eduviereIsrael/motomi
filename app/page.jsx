@@ -6,6 +6,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
+      <a href="/" className="fixed-wa" >
+        <img src="/wa.svg" alt="" />
+      </a>
       <Navbar />
       <div className="hero">
         <div className="container">
@@ -97,7 +100,7 @@ export default function Home() {
             />
             <h3>Complete Service</h3>
             <p>
-            we offer complete service for all your ca needs. From routine maintenance to complex repairs, our skilled team ensures your vehicle gets the care it deserves. With a focus on quality and customer satisfaction.
+            we offer complete service for all your car needs. From routine maintenance to complex repairs, our skilled team ensures your vehicle gets the care it deserves. With a focus on quality and customer satisfaction.
             </p>
           </div>
         </div>
