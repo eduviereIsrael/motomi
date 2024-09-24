@@ -10,6 +10,9 @@ const page = () => {
       <Navbar />
       <div className="about-page">
         <div className="container">
+          <div className="img"></div>
+          <div className="content-wrap">
+
           <div className="cont">
             <span>
               <h4>Email</h4>
@@ -44,6 +47,7 @@ const page = () => {
               </div>
               <img src="/wa-banner.svg" alt="" />
             </div>
+          </div>
           </div>
         </div>
       </div>

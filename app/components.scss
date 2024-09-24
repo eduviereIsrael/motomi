@@ -1300,10 +1300,28 @@ z-index: 1;
     background-color: #fff;
     color: #000;
     width: 100%;
-    padding: 100px 0;
+    padding: 150px 0 100px;
 
     .container{
         width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+
+        .content-wrap{
+          width: 100%;
+        }
+        .img{
+          width: 100%;
+          height: 100%;
+          border-radius: 20px;
+          background: url(/contact-banner.webp);
+          // background: url(/Motomi-bg-desk.png);
+      
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
         .cont{
             width: 100%;
             display: flex;
@@ -1361,6 +1379,10 @@ z-index: 1;
                     }
                 }
             }
+        }
+
+        @media(max-width: 768px){
+          grid: 1fr;
         }
     }
   }
