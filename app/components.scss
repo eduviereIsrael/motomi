@@ -252,6 +252,9 @@
 
         padding: 18px;
         height: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
     
         .logo{
             // width: 30px;
@@ -1381,9 +1384,19 @@ z-index: 1;
             }
         }
 
-        @media(max-width: 768px){
-          grid: 1fr;
+   
+    }
+
+    @media(max-width: 768px){
+      // padding-top: ;
+      .container{
+
+        grid-template-columns: 1fr;
+  
+        .img{
+          height: 260px;
         }
+      }
     }
   }
   
