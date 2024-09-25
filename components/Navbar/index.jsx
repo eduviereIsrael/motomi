@@ -16,7 +16,11 @@ const Navbar = ({ data }) => {
   return (
     <div className="NavbarDiv">
       <div className="NavbarContainer">
-        <img src="/motomi-logo.svg" alt="logo" className="logo" />
+        {/* <img src="/motomi-logo.svg" alt="logo" className="logo" /> */}
+        <img src="/motomi-logo.png" alt="logo" className="logo" />
+
+        {/* <img src="/motomi-logo.svg" alt="logo" className="logo" /> */}
+
 
         <div className="menuitems">
           <span onClick={() => navigate("/")}>Home</span>
